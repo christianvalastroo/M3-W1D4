@@ -70,8 +70,10 @@ body {
     cursor: pointer;
     font-weight: 600;
     color: #b97a1a;
+    transition: background 120ms ease, transform 120ms ease;
 }
 
 .add-btn:hover {
     background-color: #ce9f59;
+    transform: translateY(-1px);
 }
