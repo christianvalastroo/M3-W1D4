@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: #fef7e2;
+    padding: 30px;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+.card-img {
+    width: 100%;
+    flex: 1 1 500px;
+    margin: 10px;
+}
+
+.card-text {
+    flex: 10 10 400px;
+    line-height: 1.6;
+    color: #67430d;
+    font-size: 19px;
+}
